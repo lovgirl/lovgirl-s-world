@@ -1,0 +1,34 @@
+html { 
+  
+  color: pink;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+
+h1 { 
+color: lightblue;}
+body {
+  color: pink ;
+  margin: 4rem;
+  font-family: sans-serif;
+  line-height: 2.0;
+}
+
+
+/* images and videos max out at full width */
+img,
+video {
+  margin: 3rem;
+  height: 350px;
+  max-width: 100%;
+}
+a {
+  color: blue;
+}
+}
